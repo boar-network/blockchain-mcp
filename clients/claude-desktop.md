@@ -1,4 +1,4 @@
-# Boar MCP — Claude Desktop Setup
+# Boar blockchain MCP — Claude Desktop Setup
 
 ## Config file location
 

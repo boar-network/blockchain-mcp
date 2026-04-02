@@ -1,4 +1,4 @@
-# Boar MCP — Windsurf Setup
+# Boar blockchain MCP — Windsurf Setup
 
 ## Config file location
 

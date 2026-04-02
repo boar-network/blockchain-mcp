@@ -1,6 +1,6 @@
 # Choosing Between /basic and /advanced
 
-Boar MCP exposes two endpoints with **disjoint tool sets** — no overlap between them.
+Boar blockchain MCP exposes two endpoints with **disjoint tool sets** — no overlap between them.
 
 ## /basic — 37 tools
 

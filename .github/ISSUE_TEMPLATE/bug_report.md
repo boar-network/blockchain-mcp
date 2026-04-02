@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a problem with Boar MCP tools
+about: Report a problem with Boar blockchain MCP tools
 labels: bug
 ---
 

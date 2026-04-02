@@ -2,16 +2,16 @@
 
 ## Data Collection
 
-Boar MCP does **not** implement custom logging, user tracking, or telemetry at the application level. Specifically:
+Boar blockchain MCP does **not** implement custom logging, user tracking, or telemetry at the application level. Specifically:
 
-- No queries or tool inputs are recorded by Boar MCP
+- No queries or tool inputs are recorded by Boar blockchain MCP
 - No responses are cached or retained
 - No cookies or client-side tracking of any kind
 - No user accounts or authentication
 
 ## Infrastructure & Analytics
 
-Boar MCP runs on **Cloudflare Workers**. As part of standard platform operations, Cloudflare collects request metadata including IP addresses, request counts, response times, and error rates. See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/) for details.
+Boar blockchain MCP runs on **Cloudflare Workers**. As part of standard platform operations, Cloudflare collects request metadata including IP addresses, request counts, response times, and error rates. See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/) for details.
 
 We may use Cloudflare's built-in analytics (request volume, geographic distribution, error rates) to monitor service health and guide development decisions. These analytics are aggregate and do not include query content.
 

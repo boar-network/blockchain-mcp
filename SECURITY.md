@@ -8,7 +8,7 @@ We will acknowledge reports within 72 hours and provide a resolution timeline.
 
 ## Scope
 
-Boar MCP is a **read-only** blockchain data server. By design it:
+Boar blockchain MCP is a **read-only** blockchain data server. By design it:
 
 - **Cannot** send transactions or modify on-chain state
 - **Cannot** access private keys, wallets, or signing capabilities

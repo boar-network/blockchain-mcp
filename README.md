@@ -102,7 +102,7 @@ Full tool reference: [Basic tools (37)](docs/basic-tools.md) · [Advanced tools 
 
 ## ⚙️ How It Works
 
-Boar MCP is a remote MCP server running on Cloudflare Workers' global edge network. Every request is stateless — no sessions, no stored data. All tools are strictly read-only: no transaction signing, no wallet access, no state mutation. Your AI agent connects over HTTPS using Streamable HTTP transport (with SSE fallback).
+Boar blockchain MCP is a remote MCP server running on Cloudflare Workers' global edge network. Every request is stateless — no sessions, no stored data. All tools are strictly read-only: no transaction signing, no wallet access, no state mutation. Your AI agent connects over HTTPS using Streamable HTTP transport (with SSE fallback).
 
 ## ❓ FAQ
 

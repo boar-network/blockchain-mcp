@@ -1,4 +1,4 @@
-# Boar MCP — Gemini CLI Setup
+# Boar blockchain MCP — Gemini CLI Setup
 
 ## Add via CLI
 

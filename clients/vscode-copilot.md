@@ -1,4 +1,4 @@
-# Boar MCP — VS Code GitHub Copilot Setup
+# Boar blockchain MCP — VS Code GitHub Copilot Setup
 
 ## Config file location
 

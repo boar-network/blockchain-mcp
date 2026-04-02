@@ -1,4 +1,4 @@
-# Boar MCP — Cursor Setup
+# Boar blockchain MCP — Cursor Setup
 
 ## Config file location
 
@@ -37,7 +37,7 @@ Cursor supports streamable-http natively — no transport type field needed.
 
 1. Open **Cursor Settings > MCP** and confirm the servers show a green status indicator.
 2. Open **Composer** (Cmd+I / Ctrl+I) and ask: **"What is the ETH balance of vitalik.eth?"**
-3. The agent should use the `eth_get_balance` tool from Boar MCP.
+3. The agent should use the `eth_get_balance` tool from Boar blockchain MCP.
 
 ## Troubleshooting
 

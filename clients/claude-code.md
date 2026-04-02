@@ -1,4 +1,4 @@
-# Boar MCP — Claude Code Setup
+# Boar blockchain MCP — Claude Code Setup
 
 ## Add via CLI
 

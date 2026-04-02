@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.7.0] - 2026-03-31
 
-Initial public release of Boar MCP — a free, keyless, read-only MCP server for blockchain data.
+Initial public release of Boar blockchain MCP — a free, keyless, read-only MCP server for blockchain data.
 
 ### Added
 

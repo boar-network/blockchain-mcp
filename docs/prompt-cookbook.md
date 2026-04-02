@@ -1,6 +1,6 @@
 # Prompt Cookbook
 
-Copy-paste these prompts into your AI agent to test Boar MCP tools. Each workflow shows the prompt, which tools the agent will call, and what to expect.
+Copy-paste these prompts into your AI agent to test Boar blockchain MCP tools. Each workflow shows the prompt, which tools the agent will call, and what to expect.
 
 ---
 
