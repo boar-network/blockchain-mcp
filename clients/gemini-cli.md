@@ -5,13 +5,13 @@
 ### Basic endpoint (recommended start)
 
 ```sh
-gemini mcp add --transport http boar-mcp-basic https://mcp.boar.network/basic
+gemini mcp add --transport http boar-blockchain-mcp-basic https://mcp.boar.network/basic
 ```
 
 ### Advanced endpoint
 
 ```sh
-gemini mcp add --transport http boar-mcp-advanced https://mcp.boar.network/advanced
+gemini mcp add --transport http boar-blockchain-mcp-advanced https://mcp.boar.network/advanced
 ```
 
 ## Or add via config file
@@ -21,10 +21,10 @@ Edit `~/.gemini/settings.json` (create it if it doesn't exist):
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "httpUrl": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "httpUrl": "https://mcp.boar.network/advanced"
     }
   }

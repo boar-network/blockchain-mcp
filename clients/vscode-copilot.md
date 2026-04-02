@@ -9,7 +9,7 @@ Create or edit `.vscode/mcp.json` in your workspace root.
 ```json
 {
   "servers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "type": "http",
       "url": "https://mcp.boar.network/basic"
     }
@@ -22,11 +22,11 @@ Create or edit `.vscode/mcp.json` in your workspace root.
 ```json
 {
   "servers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "type": "http",
       "url": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "type": "http",
       "url": "https://mcp.boar.network/advanced"
     }

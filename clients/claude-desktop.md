@@ -14,7 +14,7 @@ Add to your config file (create it if it doesn't exist):
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "type": "streamable-http",
       "url": "https://mcp.boar.network/basic"
     }
@@ -27,11 +27,11 @@ Add to your config file (create it if it doesn't exist):
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "type": "streamable-http",
       "url": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "type": "streamable-http",
       "url": "https://mcp.boar.network/advanced"
     }
@@ -56,7 +56,7 @@ Requires [Node.js](https://nodejs.org/) installed on your machine.
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "command": "npx",
       "args": ["-y", "mcp-remote", "https://mcp.boar.network/basic"]
     }
@@ -69,11 +69,11 @@ Requires [Node.js](https://nodejs.org/) installed on your machine.
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "command": "npx",
       "args": ["-y", "mcp-remote", "https://mcp.boar.network/basic"]
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "command": "npx",
       "args": ["-y", "mcp-remote", "https://mcp.boar.network/advanced"]
     }

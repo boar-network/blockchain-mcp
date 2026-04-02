@@ -19,7 +19,7 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
 ```json
 {
   "mcpServers": {
-    "boar-mcp": {
+    "boar-blockchain-mcp-basic": {
       "type": "streamable-http",
       "url": "https://mcp.boar.network/basic"
     }
@@ -30,7 +30,7 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
 ### Claude Code
 
 ```bash
-claude mcp add boar-mcp-basic --transport http --scope project https://mcp.boar.network/basic
+claude mcp add boar-blockchain-mcp-basic --transport http --scope project https://mcp.boar.network/basic
 ```
 
 ### Cursor
@@ -40,7 +40,7 @@ Add to `.cursor/mcp.json` in your project root:
 ```json
 {
   "mcpServers": {
-    "boar-mcp": {
+    "boar-blockchain-mcp-basic": {
       "url": "https://mcp.boar.network/basic"
     }
   }
