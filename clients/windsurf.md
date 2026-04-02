@@ -9,7 +9,7 @@ Edit `~/.codeium/windsurf/mcp_config.json` (create the file if it doesn't exist)
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "serverUrl": "https://mcp.boar.network/basic"
     }
   }
@@ -21,10 +21,10 @@ Edit `~/.codeium/windsurf/mcp_config.json` (create the file if it doesn't exist)
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "serverUrl": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "serverUrl": "https://mcp.boar.network/advanced"
     }
   }

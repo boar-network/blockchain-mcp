@@ -9,7 +9,7 @@ Create or edit `.cursor/mcp.json` in your project root.
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "url": "https://mcp.boar.network/basic"
     }
   }
@@ -21,10 +21,10 @@ Create or edit `.cursor/mcp.json` in your project root.
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "url": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "url": "https://mcp.boar.network/advanced"
     }
   }

@@ -5,13 +5,13 @@
 ### Basic endpoint (recommended start)
 
 ```sh
-claude mcp add boar-mcp-basic --transport http --scope project https://mcp.boar.network/basic
+claude mcp add boar-blockchain-mcp-basic --transport http --scope project https://mcp.boar.network/basic
 ```
 
 ### Advanced endpoint
 
 ```sh
-claude mcp add boar-mcp-advanced --transport http --scope project https://mcp.boar.network/advanced
+claude mcp add boar-blockchain-mcp-advanced --transport http --scope project https://mcp.boar.network/advanced
 ```
 
 ### Verify
@@ -20,7 +20,7 @@ claude mcp add boar-mcp-advanced --transport http --scope project https://mcp.bo
 claude mcp list
 ```
 
-You should see `boar-mcp-basic` and/or `boar-mcp-advanced` in the output.
+You should see `boar-blockchain-mcp-basic` and/or `boar-blockchain-mcp-advanced` in the output.
 
 ## Add via project config
 
@@ -29,11 +29,11 @@ Create or edit `.mcp.json` in your project root:
 ```json
 {
   "mcpServers": {
-    "boar-mcp-basic": {
+    "boar-blockchain-mcp-basic": {
       "type": "http",
       "url": "https://mcp.boar.network/basic"
     },
-    "boar-mcp-advanced": {
+    "boar-blockchain-mcp-advanced": {
       "type": "http",
       "url": "https://mcp.boar.network/advanced"
     }
