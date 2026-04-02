@@ -4,7 +4,7 @@
 
 For bug reports and feature requests, open an issue on GitHub:
 
-**[github.com/boar-network/boar-mcp-setup/issues](https://github.com/boar-network/boar-mcp-setup/issues)**
+**[github.com/boar-network/blockchain-mcp/issues](https://github.com/boar-network/blockchain-mcp/issues)**
 
 ## Reporting Bugs
 
@@ -17,4 +17,4 @@ When reporting a bug, please include:
 
 ## Security Warning
 
-**Do NOT paste API keys, private keys, seed phrases, or any secrets in GitHub issues.** Issues are public. If you need to report a security vulnerability, use [GitHub Security Advisories](https://github.com/boar-network/boar-mcp-setup/security/advisories/new) instead.
+**Do NOT paste API keys, private keys, seed phrases, or any secrets in GitHub issues.** Issues are public. If you need to report a security vulnerability, use [GitHub Security Advisories](https://github.com/boar-network/blockchain-mcp/security/advisories/new) instead.

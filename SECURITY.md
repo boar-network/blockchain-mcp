@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Report security issues through [GitHub Security Advisories](https://github.com/boar-network/boar-mcp-setup/security/advisories/new) on this repository. Do not open public issues for security vulnerabilities.
+Report security issues through [GitHub Security Advisories](https://github.com/boar-network/blockchain-mcp/security/advisories/new) on this repository. Do not open public issues for security vulnerabilities.
 
 We will acknowledge reports within 72 hours and provide a resolution timeline.
 

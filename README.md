@@ -1,4 +1,4 @@
-# Boar MCP
+# Boar blockchain MCP
 
 **Free, keyless MCP server with 50 read-only blockchain tools across Bitcoin, Ethereum, and Mezo. No local installation required.**
 
@@ -8,7 +8,7 @@
 ![50 Tools](https://img.shields.io/badge/50_Tools-orange)
 ![3 Chains](https://img.shields.io/badge/Bitcoin_·_Ethereum_·_Mezo-purple)
 
-## Quick Start
+## 🚀 Quick Start
 
 No install. No API key. Just add the URL to your MCP client.
 
@@ -49,7 +49,7 @@ Add to `.cursor/mcp.json` in your project root:
 
 More clients: [VS Code](clients/vscode-copilot.md) · [Windsurf](clients/windsurf.md) · [Gemini CLI](clients/gemini-cli.md) · [All setup guides](clients/)
 
-## What Can You Do?
+## 💡 What Can You Do?
 
 Once connected, try these prompts:
 
@@ -61,7 +61,7 @@ Once connected, try these prompts:
 
 See the full [Prompt Cookbook](docs/prompt-cookbook.md) for 6 detailed agent workflows.
 
-## Endpoints
+## 🔗 Endpoints
 
 | Endpoint | URL | Tools | Best For |
 |----------|-----|-------|----------|
@@ -70,7 +70,7 @@ See the full [Prompt Cookbook](docs/prompt-cookbook.md) for 6 detailed agent wor
 
 Start with `/basic`. Add `/advanced` when you need smart contract interaction or transaction debugging. [Which should I use?](docs/basic-vs-advanced.md)
 
-## Top Tools at a Glance
+## 🛠️ Top Tools at a Glance
 
 | Tool | Chain | What It Does |
 |------|-------|--------------|
@@ -87,7 +87,7 @@ Start with `/basic`. Add `/advanced` when you need smart contract interaction or
 
 Full tool reference: [Basic tools (37)](docs/basic-tools.md) · [Advanced tools (13)](docs/advanced-tools.md)
 
-## Chains Supported
+## ⛓️ Chains Supported
 
 | Chain | Network | Tools |
 |-------|---------|-------|
@@ -100,11 +100,11 @@ Full tool reference: [Basic tools (37)](docs/basic-tools.md) · [Advanced tools 
 
 **Mezo** is a Bitcoin-first blockchain built on Cosmos SDK with EVM compatibility. All Ethereum EVM tools have Mezo equivalents — same interface, different chain.
 
-## How It Works
+## ⚙️ How It Works
 
 Boar MCP is a remote MCP server running on Cloudflare Workers' global edge network. Every request is stateless — no sessions, no stored data. All tools are strictly read-only: no transaction signing, no wallet access, no state mutation. Your AI agent connects over HTTPS using Streamable HTTP transport (with SSE fallback).
 
-## FAQ
+## ❓ FAQ
 
 **Is this really free?**
 Yes. No API key, no account, no payment. Fair use applies.
@@ -124,14 +124,14 @@ Yes. All 7 Bitcoin tools have `btc_testnet_` equivalents for testnet3.
 **Who built this?**
 [Boar Network](https://boar.network).
 
-## Documentation
+## 📚 Documentation
 
 - [Basic Tools Reference (37 tools)](docs/basic-tools.md)
 - [Advanced Tools Reference (13 tools)](docs/advanced-tools.md)
 - [Basic vs Advanced Guide](docs/basic-vs-advanced.md)
 - [Prompt Cookbook — 6 Agent Workflows](docs/prompt-cookbook.md)
 
-## Setup Guides
+## 📖 Setup Guides
 
 - [Claude Desktop](clients/claude-desktop.md)
 - [Claude Code](clients/claude-code.md)
@@ -140,7 +140,7 @@ Yes. All 7 Bitcoin tools have `btc_testnet_` equivalents for testnet3.
 - [Windsurf](clients/windsurf.md)
 - [Gemini CLI](clients/gemini-cli.md)
 
-## Policies
+## 📋 Policies
 
 - [Security](SECURITY.md)
 - [Privacy](PRIVACY.md)
