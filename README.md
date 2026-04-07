@@ -8,6 +8,12 @@
 ![50 Tools](https://img.shields.io/badge/50_Tools-orange)
 ![3 Chains](https://img.shields.io/badge/Bitcoin_·_Ethereum_·_Mezo-purple)
 
+| Registry | Basic | Advanced |
+|----------|-------|----------|
+| Glama.ai | [boar-blockchain-mcp-basic](https://glama.ai/mcp/connectors/network.boar.mcp/boar-blockchain-mcp-basic) | [boar-blockchain-mcp-advanced](https://glama.ai/mcp/connectors/network.boar.mcp/boar-blockchain-mcp-advanced) |
+| Smithery.ai | [![smithery badge](https://smithery.ai/badge/boar-network/blockchain-basic)](https://smithery.ai/servers/boar-network/blockchain-basic) | [![smithery badge](https://smithery.ai/badge/boar-network/blockchain-advanced)](https://smithery.ai/servers/boar-network/blockchain-advanced) |
+| mcp.so | [basic](https://mcp.so/server/boar-blockchain-mcp/boar-network) | [advanced](https://mcp.so/server/boar-blockchain-mcp/boar-network) |
+
 ## 🚀 Quick Start
 
 No install. No API key. Just add the URL to your MCP client.
@@ -22,6 +28,10 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
     "boar-blockchain-mcp-basic": {
       "type": "streamable-http",
       "url": "https://mcp.boar.network/basic"
+    },
+    "boar-blockchain-mcp-advanced": {
+      "type": "streamable-http",
+      "url": "https://mcp.boar.network/advanced"
     }
   }
 }
@@ -31,6 +41,7 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
 
 ```bash
 claude mcp add boar-blockchain-mcp-basic --transport http --scope project https://mcp.boar.network/basic
+claude mcp add boar-blockchain-mcp-advanced --transport http --scope project https://mcp.boar.network/advanced
 ```
 
 ### Cursor
@@ -42,6 +53,9 @@ Add to `.cursor/mcp.json` in your project root:
   "mcpServers": {
     "boar-blockchain-mcp-basic": {
       "url": "https://mcp.boar.network/basic"
+    },
+    "boar-blockchain-mcp-advanced": {
+      "url": "https://mcp.boar.network/advanced"
     }
   }
 }
