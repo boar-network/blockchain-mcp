@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "boar-blockchain-mcp-basic": {
+      "type": "http",
+      "url": "https://mcp.boar.network/basic"
+    },
+    "boar-blockchain-mcp-advanced": {
+      "type": "http",
+      "url": "https://mcp.boar.network/advanced"
+    }
+  }
+}

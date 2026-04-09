@@ -13,6 +13,7 @@
 | Glama.ai | [boar-blockchain-mcp-basic](https://glama.ai/mcp/connectors/network.boar.mcp/boar-blockchain-mcp-basic) | [boar-blockchain-mcp-advanced](https://glama.ai/mcp/connectors/network.boar.mcp/boar-blockchain-mcp-advanced) |
 | Smithery.ai | [![smithery badge](https://smithery.ai/badge/boar-network/blockchain-basic)](https://smithery.ai/servers/boar-network/blockchain-basic) | [![smithery badge](https://smithery.ai/badge/boar-network/blockchain-advanced)](https://smithery.ai/servers/boar-network/blockchain-advanced) |
 | mcp.so | [basic](https://mcp.so/server/boar-blockchain-mcp/boar-network) | [advanced](https://mcp.so/server/boar-blockchain-mcp/boar-network) |
+| Cursor Directory | [boar-blockchain-mcp](https://cursor.directory/plugins/boar-blockchain-mcp) | [boar-blockchain-mcp](https://cursor.directory/plugins/boar-blockchain-mcp) |
 
 ## 🚀 Quick Start
 
