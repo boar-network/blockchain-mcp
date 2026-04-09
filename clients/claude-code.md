@@ -1,5 +1,13 @@
 # Boar blockchain MCP — Claude Code Setup
 
+## Install via plugin (recommended)
+
+```sh
+/plugin install boar-blockchain-mcp@boar-network/blockchain-mcp
+```
+
+This installs both the basic and advanced MCP servers in one step.
+
 ## Add via CLI
 
 ### Basic endpoint (recommended start)

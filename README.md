@@ -40,6 +40,12 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
 
 ### Claude Code
 
+```
+/plugin install boar-blockchain-mcp@boar-network/blockchain-mcp
+```
+
+Or via CLI:
+
 ```bash
 claude mcp add boar-blockchain-mcp-basic --transport http --scope project https://mcp.boar.network/basic
 claude mcp add boar-blockchain-mcp-advanced --transport http --scope project https://mcp.boar.network/advanced
