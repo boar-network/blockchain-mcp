@@ -23,9 +23,9 @@ All tools are strictly read-only. No transaction signing, no wallet access, no s
 The `.claude-plugin/` directory follows the Claude plugin standard for [Claude Code](https://claude.ai/code) and Claude Desktop.
 
 Relevant files:
-- `.claude-plugin/plugin.json` - plugin manifest with MCP server references
+- `.claude-plugin/plugin.json` - plugin manifest referencing the MCP server config
+- `.claude-plugin/mcp.json` - MCP server configuration (referenced by `plugin.json` via `"mcpServers": "./mcp.json"`)
 - `.claude-plugin/marketplace.json` - marketplace manifest enabling installation via `/plugin install`
-- `.mcp.json` - MCP server configuration (referenced by the plugin manifest)
 
 To install via Claude Code:
 ```
