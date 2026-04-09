@@ -10,9 +10,10 @@ All tools are strictly read-only. No transaction signing, no wallet access, no s
 
 ## Repository Structure
 
-- `clients/` - setup guides for Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI
+- `clients/` - setup guides for Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, OpenCode
 - `docs/` - tool references, basic vs advanced guide, prompt cookbook
 - `.mcp.json` - MCP server configuration for Claude Code (project-level auto-detection)
+- `opencode.json` - MCP server configuration for OpenCode (project-level auto-detection)
 - `.claude-plugin/` - Claude plugin standard files (see below)
 - `.plugin/` - Open Plugin Standard files (see below)
 
@@ -31,6 +32,14 @@ To install via Claude Code:
 ```
 /plugin install boar-blockchain-mcp@boar-network/blockchain-mcp
 ```
+
+### OpenCode
+
+The `opencode.json` file in the repo root is auto-detected by [OpenCode](https://opencode.ai) as a project-level MCP config.
+
+Relevant files:
+- `opencode.json` - MCP server configuration using `"type": "remote"` and top-level `"mcp"` key (OpenCode's format)
+- `clients/opencode.md` - setup guide
 
 ### Open Plugin Standard
 

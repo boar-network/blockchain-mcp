@@ -69,7 +69,26 @@ Add to `.cursor/mcp.json` in your project root:
 }
 ```
 
-More clients: [VS Code](clients/vscode-copilot.md) · [Windsurf](clients/windsurf.md) · [Gemini CLI](clients/gemini-cli.md) · [All setup guides](clients/)
+### OpenCode
+
+Add to `opencode.json` in your project root:
+
+```json
+{
+  "mcp": {
+    "boar-blockchain-mcp-basic": {
+      "type": "remote",
+      "url": "https://mcp.boar.network/basic"
+    },
+    "boar-blockchain-mcp-advanced": {
+      "type": "remote",
+      "url": "https://mcp.boar.network/advanced"
+    }
+  }
+}
+```
+
+More clients: [VS Code](clients/vscode-copilot.md) · [Windsurf](clients/windsurf.md) · [Gemini CLI](clients/gemini-cli.md) · [OpenCode](clients/opencode.md) · [All setup guides](clients/)
 
 ## 💡 What Can You Do?
 
@@ -161,6 +180,7 @@ Yes. All 7 Bitcoin tools have `btc_testnet_` equivalents for testnet3.
 - [VS Code (GitHub Copilot)](clients/vscode-copilot.md)
 - [Windsurf](clients/windsurf.md)
 - [Gemini CLI](clients/gemini-cli.md)
+- [OpenCode](clients/opencode.md)
 
 ## 📋 Policies
 

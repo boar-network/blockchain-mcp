@@ -1,0 +1,12 @@
+{
+  "mcp": {
+    "boar-blockchain-mcp-basic": {
+      "type": "remote",
+      "url": "https://mcp.boar.network/basic"
+    },
+    "boar-blockchain-mcp-advanced": {
+      "type": "remote",
+      "url": "https://mcp.boar.network/advanced"
+    }
+  }
+}
