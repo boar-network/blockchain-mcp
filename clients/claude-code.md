@@ -3,10 +3,11 @@
 ## Install via plugin (recommended)
 
 ```sh
+/plugin marketplace add boar-network/blockchain-mcp
 /plugin install boar-blockchain-mcp@boar-network/blockchain-mcp
 ```
 
-This installs both the basic and advanced MCP servers in one step.
+This installs both the basic and advanced MCP servers. The first command registers the marketplace, the second installs the plugin.
 
 ## Add via CLI
 

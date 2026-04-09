@@ -41,6 +41,7 @@ Add to your config file (`~/Library/Application Support/Claude/claude_desktop_co
 ### Claude Code
 
 ```
+/plugin marketplace add boar-network/blockchain-mcp
 /plugin install boar-blockchain-mcp@boar-network/blockchain-mcp
 ```
 
